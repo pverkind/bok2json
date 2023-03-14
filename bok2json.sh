@@ -138,4 +138,6 @@ for fp in $1/*.bok; do(
   rm temp.txt
 ); done
 
+# clean up: remove the temporary directory
+rm -rf "$temp_dir"
 echo "done!"
